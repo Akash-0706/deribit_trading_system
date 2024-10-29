@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deribit Trading System</title>
+</head>
+<body>
+    <h1>Deribit Trading System</h1>
+    <form id="order-form">
+        <label>Instrument: <input type="text" id="instrument"></label><br>
+        <label>Type: <select id="type"><option>buy</option><option>sell</option></select></label><br>
+        <label>Amount: <input type="number" id="amount"></label><br>
+        <label>Price: <input type="number" id="price"></label><br>
+        <button type="submit">Place Order</button>
+    </form>
+    <div id="order-book"></div>
+    <script src="app.js"></script>
+</body>
+</html>
